@@ -12,6 +12,13 @@ export default defineConfig({
     },
   },
   devServer: {
-    proxy: 'http://localhost:10181/',
+    // proxy: {
+    //   '/api': {
+    //     target: 'https://localhost:1019/api/v1',
+    //     changeOrigin: true,
+    //     secure: false,
+    //     ws: true,
+    //   },
+    // },
   },
 });
