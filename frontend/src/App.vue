@@ -1,14 +1,18 @@
 <template>
   <div class="app">
-    <Ground />
+    <Header />
+    <router-view />
+    <Footer />
   </div>
 </template>
 <script>
-import Ground from './components/Ground.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
+import Todos from './components/Todos.vue';
 
 export default {
   name: 'App-vue',
-  components: { Ground },
+  components: { Header, Footer, Todos },
   setup() {},
 };
 </script>

@@ -5,7 +5,7 @@ import todos from './todos';
 
 const router = Router();
 
-router.use('/users', users);
+router.use('/account', users);
 router.use('/todos', todos);
 
 export default router;
